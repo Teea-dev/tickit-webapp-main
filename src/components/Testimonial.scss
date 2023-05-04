@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:wght@500;400;700&display=swap");
+
+.container{
+    position: relative;
+    // display: grid;
+    // grid-template-columns: repeat(2,1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin: 10rem 0;
+    .testimonial-background{
+        position: absolute;
+        max-width: 100%;
+        top: -11em;
+        z-index: -1;
+    }
+    .testimonial{
+              .header{
+                font-family: var(--basic-font);
+                font-size: 20px;
+                font-weight: 500;
+                margin: 2rem;
+                color: var(--secondary-color);
+              }
+            .testimonial-body{
+                margin: 2rem 0;
+                h2{
+                    font-family: var(--home-font2);
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 32px;
+                    margin: 2rem 0;
+                }
+                p{
+                    font-family: var(--basic-font);
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color:  #5C5F5E;
+                }
+              }
+              .customer-info{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                // width: 100%;
+                h4{
+                    font-family: var(--basic-font);
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color:  #808080;
+                }
+                h2{
+                    font-family: var(--basic-font);
+                    font-weight: 700;
+                    font-size: 1.5rem;
+                    color: #0A0F0D;
+
+                }
+                .arrows{
+                    display: flex;
+                    gap: 20px;
+                }
+              }
+    }
+}
